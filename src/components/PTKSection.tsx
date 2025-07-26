@@ -8,20 +8,21 @@ const PTKSection = () => {
         
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
-            <div className="bg-gray-100 rounded-xl p-8 text-center border-2 border-dashed border-gray-300">
-              <h3 className="text-lg font-montserrat font-semibold text-brand-gray mb-4">
-                🖼️ Foto do PTK
-              </h3>
-              <p className="text-brand-gray mb-4">
-                Adicione aqui uma foto profissional do PTK
-              </p>
-              <div className="bg-white rounded-lg p-4 border border-gray-200">
-                <p className="text-sm text-gray-600">
-                  Dimensões recomendadas: 400x400px
-                </p>
-              </div>
-            </div>
-          </div>
+  <div className="bg-gray-100 rounded-xl p-8 text-center border-2 border-dashed border-gray-300">
+    <h3 className="text-lg font-montserrat font-semibold text-brand-gray mb-4">
+      🖼️ Foto do PTK
+    </h3>
+    <p className="text-brand-gray mb-4">
+      Adicione aqui uma foto profissional do PTK
+    </p>
+    <div className="bg-white rounded-lg p-4 border border-gray-200">
+      <p className="text-sm text-gray-600">
+        Dimensões recomendadas: 400x400px
+      </p>
+    </div>
+  </div>
+</div>
+
           
           <div className="order-1 md:order-2">
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
