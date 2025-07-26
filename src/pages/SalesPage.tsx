@@ -150,7 +150,7 @@ const SalesPage = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-brand-gray mb-8 max-w-4xl mx-auto leading-relaxed">
-            Receba acesso VIP aos melhores fornecedores de roupas, perfumes e acessórios – 
+            Receba acesso VIP aos melhores fornecedores de roupas, calçados, perfumes e acessórios – 
             <strong className="text-brand-black"> sem sair de casa.</strong>
           </p>
           
