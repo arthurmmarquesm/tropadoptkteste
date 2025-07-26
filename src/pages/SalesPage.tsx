@@ -282,13 +282,19 @@ const SalesPage = () => {
           
           {/* Pricing Offer */}
           <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-brand-gold mb-8 max-w-md mx-auto">
-            <div className="text-center">
-              <p className="text-sm text-brand-gray mb-2">🔥 OFERTA ESPECIAL</p>
-              <div className="text-3xl font-bold text-brand-red mb-2">R$ 97,00</div>
-              <p className="text-brand-gray">à vista ou</p>
-              <p className="text-lg font-semibold text-brand-black">12x de R$ 10,03</p>
-            </div>
-          </div>
+  <div className="text-center">
+    <p className="text-sm font-semibold text-brand-red uppercase mb-1">🔥 Oferta por tempo limitado</p>
+
+    <p className="text-sm text-brand-gray line-through">De R$ 297,00</p>
+    <div className="text-4xl font-bold text-brand-red mb-1">R$ 97,00</div>
+
+    <p className="text-brand-gray">à vista ou</p>
+    <p className="text-lg font-semibold text-brand-black mb-2">12x de R$ 10,03</p>
+
+    <p className="text-sm text-brand-red font-semibold animate-pulse">⏳ Vagas limitadas — pode sair do ar a qualquer momento</p>
+  </div>
+</div>
+
           
           <CTAButton size="xxl" className="mb-4 w-full max-w-md mx-auto">
             🔥 Quero meu guia agora
