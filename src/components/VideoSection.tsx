@@ -9,7 +9,7 @@ const VideoSection = () => {
         {/* Vídeo responsivo 9:16 (sem autoplay, com som) */}
         <div className="relative w-full aspect-[9/16] mb-6">
           <iframe
-            src="https://player.vimeo.com/video/1104767724"
+            src="https://player.vimeo.com/video/1104986320"
             className="absolute top-0 left-0 w-full h-full rounded-lg"
             frameBorder="0"
             allow="fullscreen; picture-in-picture"
